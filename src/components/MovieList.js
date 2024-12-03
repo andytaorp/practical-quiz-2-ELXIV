@@ -3,7 +3,7 @@ import Movie from "./Movie";
 
 export default function MovieList({ movies, onToggleWatched, onDeleteMovie }) {
   return (
-    <ul>
+    <ul className="movie-list">
       {movies.map((movie) => (
         <Movie
           key={movie.id}
